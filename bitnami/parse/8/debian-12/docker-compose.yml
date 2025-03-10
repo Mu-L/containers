@@ -12,7 +12,7 @@ services:
       - MONGODB_DATABASE=bitnami_parse
       - MONGODB_PASSWORD=bitnami123
   parse:
-    image: docker.io/bitnami/parse:7
+    image: docker.io/bitnami/parse:8
     ports:
       - '1337:1337'
     volumes:
